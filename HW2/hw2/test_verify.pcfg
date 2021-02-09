@@ -1,0 +1,10 @@
+# Startsymbols
+TOP ; 1.0
+
+# Phrasal rules
+S -> NP VP ; 1.0
+NP -> ADJ PRP ; 1.0
+PRP -> they ; 1.0
+VP -> run ; 1.0
+Adj -> good ; 0.5
+Adj -> 0 ; 0.5
